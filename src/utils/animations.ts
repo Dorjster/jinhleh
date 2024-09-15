@@ -3,11 +3,15 @@ import { AppRouterInstance } from "next/dist/shared/lib/app-router-context.share
 
 export const animatePageIn = () => {
   const bannerOne = document.getElementById("banner-1");
+
   const bannerTwo = document.getElementById("banner-2");
   const bannerThree = document.getElementById("banner-3");
   const bannerFour = document.getElementById("banner-4");
 
   if (bannerOne && bannerTwo && bannerThree && bannerFour) {
+    [bannerOne, bannerTwo, bannerThree, bannerFour].forEach((banner) => {
+      banner.style.backgroundColor = "black";
+    });
     const tl = gsap.timeline();
 
     tl.set([bannerOne, bannerTwo, bannerThree, bannerFour], {
@@ -15,7 +19,7 @@ export const animatePageIn = () => {
     }).to([bannerOne, bannerTwo, bannerThree, bannerFour], {
       yPercent: 100,
       stagger: 0.1,
-      duration: 10.5,
+      duration: 0.5,
     });
   }
 };
@@ -34,7 +38,7 @@ export const animatePageOut = (href: string, router: AppRouterInstance) => {
     }).to([bannerOne, bannerTwo, bannerThree, bannerFour], {
       yPercent: 0,
       stagger: 0.1,
-      duration: 10.5,
+      duration: 0.5,
       onComplete: () => {
         router.push(href);
       },
