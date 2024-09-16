@@ -206,7 +206,7 @@ const Page: React.FC = () => {
                     src={"/C1000.png"}
                     width={200}
                     height={0}
-                    alt={"Fortinet Accelerate Mongolia 2024"}
+                    alt={"Fortinet Accelerate Mongolia 204"}
                   />
                   <div className="absolute bottom-[5px]">C1000 X 1</div>
                 </div>
