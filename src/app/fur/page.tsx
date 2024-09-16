@@ -2,8 +2,8 @@ import React from "react";
 
 const Page = () => {
   return (
-    <div className="relative flex items-center justify-center flex-col ">
-      <div className="w-full max-w-7xl mt-10 mx-auto ">
+    <div className="relative flex items-center justify-center flex-col -mr-[350px] ">
+      <div className="w-full mt-10 mx-auto ">
         <h1 className="text-6xl md:text-8xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-green-400 to-yellow-400 tracking-wide">
           Зорилго болон төлөвлөгөө
         </h1>
@@ -77,7 +77,7 @@ const Page = () => {
           Компанид өгөх амлалт
         </h1>
 
-        <div className="-ml-[250px] mt-16 text-gray-300 mb-[50px]">
+        <div className="-ml-[60px] mt-16 text-gray-300 mb-[50px]">
           <div className="w-[1250px] grid grid-cols-1 md:grid-cols-3 gap-[50px]">
             <div className="w-[400px] bg-gray-800 p-8 rounded-lg shadow-lg hover:bg-teal-700 transition-all">
               <h3 className="text-2xl font-semibold text-teal-300 mb-4">

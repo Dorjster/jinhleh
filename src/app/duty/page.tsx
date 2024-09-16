@@ -15,7 +15,7 @@ const Page = () => {
           </h2>
           <ul className="list-disc list-inside space-y-2">
             <li>
-              Тухайн байгууллагын сүлжээг эрсдэл бага, эмх цэгцтэйгээр шийдэх
+              Тухайн байгууллагын сүлжээг эрсдэл бага, зөв оновчтойгоор шийдэх
             </li>
           </ul>
         </div>
@@ -24,12 +24,17 @@ const Page = () => {
           <h2 className="text-2xl font-bold text-teal-400 mb-4 text-center">
             Суурилуулалт хийх
           </h2>
-          <ul className="list-disc list-inside space-y-2"></ul>
+          <ul className="list-disc list-inside space-y-2">
+            <li>
+              Тухайн байгууллагын сүлжээий бүтцээс хамааран шаардлагад нийцүүлэн
+              суурилуулах
+            </li>
+          </ul>
         </div>
 
         <div className=" w-[40%] bg-gray-800 text-white p-6 w-80 rounded-lg shadow-lg">
           <h2 className="text-2xl font-bold text-teal-400 mb-4 text-center">
-            Үйлчлүүлэгчдэдээ дэмжлэг туслалцаа үзүүлэх
+            Шаарлагатай тусламжийг цаг тухайд нь хүргэх
           </h2>
           <ul className="list-disc list-inside space-y-2"></ul>
         </div>

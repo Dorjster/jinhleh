@@ -52,8 +52,8 @@ const SupportPortal: React.FC = () => {
   };
 
   return (
-    <div>
-      <h1 className="text-6xl md:text-8xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-green-400 to-yellow-400 tracking-wide mt-[100px] mb-[100px]">
+    <div className="-mr-[500px]">
+      <h1 className="text-6xl md:text-8xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-green-400 to-yellow-400 tracking-wide mt-[100px] mb-[100px] ">
         Шинэ санаа
       </h1>
 
