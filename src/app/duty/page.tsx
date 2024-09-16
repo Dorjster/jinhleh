@@ -4,7 +4,7 @@ import React from "react";
 const Page = () => {
   return (
     <div className="absolute top-0 left-0 w-full mt-[50px]">
-      <h1 className="text-7xl font-extrabold text-center mt-10 text-green-600">
+      <h1 className="text-7xl font-extrabold text-center mt-10 text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-green-400 to-yellow-400 tracking-wide">
         Ажлын байрны үндсэн үүрэг
       </h1>
 
@@ -15,8 +15,7 @@ const Page = () => {
           </h2>
           <ul className="list-disc list-inside space-y-2">
             <li>
-              Тухайн байгууллагын сүлжээг илүү асуудалгүй, эмх цэгцтэйгээр
-              шийдэх
+              Тухайн байгууллагын сүлжээг эрсдэл бага, эмх цэгцтэйгээр шийдэх
             </li>
           </ul>
         </div>

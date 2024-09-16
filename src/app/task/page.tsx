@@ -43,7 +43,7 @@ const Page: React.FC = () => {
 
   return (
     <div className="absolute top-0 left-0 w-full mt-[50px]">
-      <h1 className="text-7xl font-extrabold text-center mt-10 text-green-600">
+      <h1 className="text-7xl font-extrabold text-center mt-10 text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-green-400 to-yellow-400 tracking-wide">
         Гүйцэтгэсэн ажлууд
       </h1>
 
@@ -215,6 +215,7 @@ const Page: React.FC = () => {
           </ul>
         </div>
       </div>
+
       {showScrollTop && (
         <button
           onClick={scrollToTop}

@@ -49,14 +49,9 @@ const Navigation = () => {
               label="Дадлагажих хугацааний төлөвлөгөө"
             />
             <TransitionLink href="/task" label="Гүйцэтгэсэн ажлууд" />
-            <TransitionLink
-              href="/about"
-              label="Цаашдийн зорилго, төлөвлөгөө"
-            />
-            <TransitionLink
-              href="/about"
-              label="Амжилтанд хүрэх гал эрмэлзэл"
-            />
+            <TransitionLink href="/fur" label="Цаашдийн зорилго, төлөвлөгөө" />
+            <TransitionLink href="/book" label="Амжилтанд хүрэх гал эрмэлзэл" />
+            <TransitionLink href="/new" label="Шинэ санал, санаачлага" />
             <TransitionLink href="/summary" label="Дүгнэлт" />
           </div>
         </div>
